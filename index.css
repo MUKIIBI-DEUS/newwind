@@ -234,7 +234,7 @@ body{
     /* border: 2px solid var(--secondary); */
     margin: auto;
     display: flex;
-    margin-top: 70px;
+    margin-top: 20px;
 
 
 }
@@ -284,12 +284,15 @@ body{
 
 }
 .answer{
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 10px;
     background: var(--secondary);
     color: var(--tertiary);
     text-align: center;
-    width: 520px;
+    width: 502px;
     padding: 20px;
     border-radius: var(--borderRadius);
+    cursor: pointer;
+    box-shadow: 10px 5px 10px rgb(185, 184, 184);
+    
 }
