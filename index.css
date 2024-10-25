@@ -293,6 +293,8 @@ body{
     padding: 20px;
     border-radius: var(--borderRadius);
     cursor: pointer;
-    box-shadow: 10px 5px 10px rgb(185, 184, 184);
-    
+ 
+}
+.answer:hover{
+    box-shadow: 10px 5px 10px gray;
 }
