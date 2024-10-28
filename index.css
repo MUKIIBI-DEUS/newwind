@@ -43,6 +43,61 @@ body{
     }
 }
 
+@keyframes changeShape{
+    0%{
+        background: url('./clock.jpg');
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+        
+        /* margin-left: -200px; */
+    }
+    50%{
+        background: url('./forest.jpg');
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+   
+    }
+
+    100%{
+        background: url('./clock.jpg');
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+/* slide up  */
+@keyframes slideup{
+    0%{
+        /* margin-top: 60px; */
+    }
+    50%{
+        /* margin-top: 20px; */
+
+        
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+.slideUpBtn{
+    /* visibility:visible; */
+    background: red;border-radius: 5px;height: 30px;color: #ffffff;border: 2px solid red;cursor: pointer;margin-top: 60px;
+    animation:slideup 10s linear;
+
+    animation-timing-function: ease-in;
+padding: auto;
+    animation-iteration-count: infinite;
+
+}
+
 
 .slideL{
     animation:slideLeft 5s linear;
@@ -151,12 +206,15 @@ body{
     display: flex;
     /* border: 2px solid var(--primary); */
     height: 400px;
-    background: url('./forest.jpg');
+    background: url('./computer.jpg');
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: var(--borderRadius);
+    animation: changeShape 15s linear;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    /* border-radius: var(--borderRadius); */
     /* position: relative; */
 
 }
@@ -173,12 +231,13 @@ body{
     height:60px ;
     width: 500px;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-between;
     /* align-items: center;     */
     position: absolute;
     top: 420px;
     left: 100px;
     border-radius:var(--borderRadius);
+ 
     /* position: sticky; */
 }
 .options>.card{
@@ -195,6 +254,7 @@ body{
     top: 20px;
     cursor: pointer;
     border-radius: var(--borderRadius);
+    clip-path: polygon(75% 0%, 75% 51%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 
 }
 .card:hover{
@@ -318,6 +378,24 @@ body{
     margin-left: 30px;
     /* border: 2px solid red; */
 }
+
+
+.simplewords{
+    margin-top: -10000;
+    background: red;
+    height: 200px;
+    width: 200px;
+    clip-path: polygon(50% 0%, 100% 46%, 83% 100%, 17% 100%, 0 47%);
+    margin: auto;
+    animation:changeShape 10s linear;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-out;
+    transition: all 10s;
+
+}
+
+
+
 .teller{
     /* border: 2px solid var(--secondary); */
     margin: auto;
