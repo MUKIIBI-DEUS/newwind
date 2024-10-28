@@ -45,7 +45,7 @@ body{
 
 @keyframes changeShape{
     0%{
-        background: url('./clock.jpg');
+        background: url('./software.png');
         background-attachment: scroll;
         background-position: center;
         background-size: cover;
