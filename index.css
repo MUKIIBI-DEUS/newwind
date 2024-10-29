@@ -478,93 +478,7 @@ padding: auto;
 
 /* MEDIA QUERY AND RESPONSIVENESS */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body{
-        overflow-x: hidden;
-    }
-    .left_sidebar{
-        background:var(--secondaryColor);
-        overflow-x: hidden;
-    }
 
-
-    .company_title{
-        /* border: 2px solid paleturquoise; */
-        width: 50px;
-        
-    }
-    .company_title> .pack1{
-        display: flex;
-        flex-direction: column;
-        font-size: 2px;
-        height: 40px;
-        /* border: 4px solid red; */
-        
-        margin-left: -16px;
-        height: 60px;
-        padding: -20px;
-        overflow-y: hidden;
-
-
-    }
-    
-    
-
-
-
-    #companyTitle{
-        font-size: 400%;
-        margin-top: 1px;
-        overflow-y: hidden;
-    }
-    .moto{
-        display: none;
-    }
-
-    .mainMenuTitle{
-        margin-top: 1px;
-        display: flex;
-        
-
-    }
-
-    .mainMenuTitle>h1{
-        font-size:60%;
-        margin-left: 19%;
-
-    }
-
-    .Option{
-        margin-top: 5px;
-    }
-    .Option>p{
-        display: none;
-    }
-
-    .topBar{
-        /* border: 5px solid red; */
-        overflow-x: hidden;
-        /* display: none; */
-    }
-
-    #separator,.topBarsearch,.alertBar{
-        visibility: hidden;
-
-    }
-    .welcomeBar{
-        width: 100px;
-    }
-    .welcomeBar>p{
-        font-size: 62%;
-        font-weight:200;
-    }
-    .adminDetails{
-        margin-left: -65%;
-    }
-
-
-
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
@@ -659,7 +573,7 @@ padding: auto;
     .aboutUs>.boards,#space{
         width: 90%;
         margin-top: 5px;
-        height: fit-content;
+        height: 300px;
     }
     #contactus{
         margin-top: 30px;
@@ -685,7 +599,7 @@ padding: auto;
     }
 
     #projects{
-        border: 3px solid red;
+        /* border: 3px solid red; */
         height: 30vh;
         
     }
