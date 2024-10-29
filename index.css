@@ -575,7 +575,7 @@ padding: auto;
     }
     body{
         width: 100%;
-        /* border: 2px solid red; */
+        border: 2px solid red;
     }
     .navbar{
         background: var(--secondary);
@@ -690,16 +690,16 @@ padding: auto;
         
     }
 /* ANIMATION */
-.slideL{
-    animation:none;
-    /* animation-timeline: view();
-    animation-range: entry 0% cover 40%; */
+/* .slideL{
+    animation:slideLeft 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 .slideR{
-    animation:none;
-    /* animation-timeline: view();
-    animation-range: entry 0% cover 40%; */
-}
+    animation:slideRight 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+} */
 
     
 
