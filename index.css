@@ -575,7 +575,7 @@ padding: auto;
     }
     body{
         width: 100%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
     .navbar{
         background: var(--secondary);
