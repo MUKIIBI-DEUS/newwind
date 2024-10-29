@@ -571,6 +571,7 @@ padding: auto;
     *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
     body{
         width: 100%;
@@ -656,7 +657,7 @@ padding: auto;
         margin-top: 100px;
     }
     .aboutUs>.boards,#space{
-        width: 100%;
+        width: 90%;
         margin-top: 5px;
         height: fit-content;
     }
@@ -682,6 +683,25 @@ padding: auto;
     .teller{
         display: none;
     }
+
+    #projects{
+        border: 3px solid red;
+        height: 30vh;
+        
+    }
+/* ANIMATION */
+.slideL{
+    animation:none;
+    /* animation-timeline: view();
+    animation-range: entry 0% cover 40%; */
+}
+.slideR{
+    animation:none;
+    /* animation-timeline: view();
+    animation-range: entry 0% cover 40%; */
+}
+
+    
 
 }
 
