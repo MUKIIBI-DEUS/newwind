@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .tray-container {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    overflow: hidden; /* Hide the overflowing content */
+    background-color: #3498db; /* Base color */
+    transition: height 0.3s ease; /* Smooth transition for height */
+}
+
+.tray {
+    height: 100%; /* Full height of the container */
+    background-color: #2b3135; /* Darker shade for effect */
+    transform: translateY(100%); /* Start hidden below the container */
+    transition: transform 0.3s ease; /* Smooth transition for sliding */
+}
+
+.tray-container:hover {
+    height: 150px; /* Increase height on hover */
+}
+
+.tray-container:hover .tray {
+    transform: translateY(0); /* Slide up into view */
+}
+    </style>
+</head>
+<body>
+    <div class="tray-container">
+        <div class="tray">
+            <p>This is the content that slides out!</p>
+        </div>
+    </div>
+</body>
+</html>
